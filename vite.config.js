@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react() , tailwindcss()],
-  base:'/jessica251204/Jessica-Ayman-fri-10-4-Assigment14-01201017982/'
+  base:'Jessica-Ayman-fri-10-4-Assigment14-01201017982/'
 })
