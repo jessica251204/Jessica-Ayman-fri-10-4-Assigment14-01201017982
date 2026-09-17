@@ -1,9 +1,5 @@
-// بيستخرج أعضاء الفريق تلقائيًا من بيانات الـ author جوه كل بوست
-// عشان منكررش نفس البيانات في مكانين. غيّر مسار الاستيراد لو اسم ملف البوستات مختلف عندك.
 import posts from "./posts";
-
 const uniqueAuthors = new Map();
-
 posts.forEach((post) => {
   if (!uniqueAuthors.has(post.author.name)) {
     uniqueAuthors.set(post.author.name, {
